@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "attendance-portal-client-side-solution",
+    "id": "c58df040-e8ab-4cb9-b331-1e00fbc2b294",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "AttendancePortal description"
+      },
+      "longDescription": {
+        "default": "AttendancePortal description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "attendance-portal Feature",
+        "description": "The feature that activates elements of the attendance-portal solution.",
+        "id": "92f20cf2-2915-46d9-a9fd-107345f4dcff",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/attendance-portal.sppkg"
+  }
+}

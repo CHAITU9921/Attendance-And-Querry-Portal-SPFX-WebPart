@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "attendance-portal",
+    "libraryId": "c58df040-e8ab-4cb9-b331-1e00fbc2b294",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "AttendancePortal",
+    "solutionShortDescription": "AttendancePortal description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

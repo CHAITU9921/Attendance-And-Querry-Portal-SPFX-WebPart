@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "attendance-portal-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/attendancePortal/AttendancePortalWebPart.js",
+          "manifest": "./src/webparts/attendancePortal/AttendancePortalWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AttendancePortalWebPartStrings": "lib/webparts/attendancePortal/loc/{locale}.js"
+  }
+}
