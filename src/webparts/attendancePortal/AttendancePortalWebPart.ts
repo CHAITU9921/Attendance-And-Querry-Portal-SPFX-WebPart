@@ -9,7 +9,7 @@ import { escape } from '@microsoft/sp-lodash-subset';
 
 import styles from './AttendancePortalWebPart.module.scss';
 import * as strings from 'AttendancePortalWebPartStrings';
-  import { Web }  from 'sp-pnp-js';
+import { Web }  from 'sp-pnp-js';
  
  
 
@@ -921,7 +921,7 @@ export default class AttendancePortalWebPart extends BaseClientSideWebPart<IAtte
          </td>
          </tr>
        </table>
-       
+
        </div>
   
 
@@ -1958,14 +1958,14 @@ if (isNaN(ShiftEndtparsedDate)) {
 
 
 
-alert("ok 1");
+    //alert("ok 1");
       
 
 
     let web = new Web ("https://cygniiautomationpvtltd.sharepoint.com/sites/AttendancePortal2");
 // Check for duplicate record
   const encodedEmpID = encodeURIComponent(EmployeeIDValue);
-  alert("ok 2");
+//  alert("ok 2");
   
  
  
@@ -2281,6 +2281,7 @@ const filter = `EmpID eq '${encodedEmpID}' and AbsentDate eq '${AbsentDateV}')`;
     const inputFieldIds = [
       "ddlEmployeeID",
       "ddlworkingORnotWorking",
+      "ddlPresentCodeValue",
       "txtMajorTaskActivityValue",
       "txtMajorLearningValue",
       "txtDoubtsSupportRequiredValue",
